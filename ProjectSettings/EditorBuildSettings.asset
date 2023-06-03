@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/startMenu/startMenu.unity
+    guid: c163c313fdbf3f746821056692b53aa3
+  - enabled: 1
+    path: Assets/Sci Fi Modular Pack/Scenes/Demo 1.0 Free.unity
+    guid: 61c3fc2c1be344690b19efb0147d93ee
   m_configObjects: {}
