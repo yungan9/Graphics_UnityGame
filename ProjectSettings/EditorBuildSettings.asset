@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/startMenu/startMenu.unity
     guid: c163c313fdbf3f746821056692b53aa3
   - enabled: 1
-    path: Assets/Sci Fi Modular Pack/Scenes/Demo 1.0 Free.unity
-    guid: 61c3fc2c1be344690b19efb0147d93ee
+    path: Assets/Scenes/outpost with snow.unity
+    guid: e8cf1d29775c7e24f9dd35148a6437c0
+  - enabled: 1
+    path: Assets/Scenes/Tilt Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
