@@ -91,6 +91,8 @@ public class Board : MonoBehaviour
 		if ( tiles.Count == puzzleSize.x * puzzleSize.y - 1)
         {
 			Debug.Log("GameClear");
+
+			GetComponent<UIController>().OnResultPanel();
         }
     }
 }
