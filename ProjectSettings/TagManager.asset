@@ -6,6 +6,7 @@ TagManager:
   tags:
   - sphere
   - GoalPlate
+  - goal
   layers:
   - Default
   - TransparentFX
