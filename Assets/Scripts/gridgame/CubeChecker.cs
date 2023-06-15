@@ -8,6 +8,10 @@ public class CubeChecker : MonoBehaviour
 {
     [SerializeField]
     private CubeSpawner cubeSpawner;
+    [SerializeField]
+    private GameController gameController;
+
+    private int score = 0;
     private CubeController[] touchCubes;
 
     private int correctCount = 0;
@@ -35,15 +39,23 @@ public class CubeChecker : MonoBehaviour
 
     private void Update()
     {
+        if (gameController.IsGameOver == true) { return;
+        }
         if (CorrectCount + IncorrectCount == touchCubes.Length)
         {
             if (incorrectCount == 0)
             {
-                Debug.Log("Success");
+                gameController.IncreaseScore();
+                score++;
             }
-            else
+
+            if (score == 3)
             {
-                Debug.Log("Failed");
+                gameController.GameOver();
+            }
+            else 
+            {
+                Debug.Log("fail");
             }
 
             CorrectCount = 0;
