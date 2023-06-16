@@ -18,6 +18,16 @@ EditorBuildSettings:
     path: Assets/startMenu/controlExplainScene/explainScreen.unity
     guid: dc369745e1776524b967ed1fc162793f
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/Sliding Puzzle.unity
     guid: cdb79f695dab5d9478852da5550be63b
+=======
+<<<<<<< HEAD
+    path: Assets/Scenes/Finish.unity
+    guid: 61b9619c06918b94a86ab3ac36151764
+=======
+    path: Assets/Scenes/Sliding Puzzle.unity
+    guid: cdb79f695dab5d9478852da5550be63b
+>>>>>>> 5934f53f9651aa782f7d651d84a7eaafec72b450
+>>>>>>> Stashed changes
   m_configObjects: {}
