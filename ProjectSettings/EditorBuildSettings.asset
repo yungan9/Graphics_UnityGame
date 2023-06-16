@@ -4,30 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/startMenu/startMenu.unity
-    guid: c163c313fdbf3f746821056692b53aa3
-  - enabled: 1
-    path: Assets/Scenes/outpost with snow.unity
-    guid: e8cf1d29775c7e24f9dd35148a6437c0
-  - enabled: 1
-    path: Assets/Scenes/Tilt Game.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/startMenu/controlExplainScene/explainScreen.unity
-    guid: dc369745e1776524b967ed1fc162793f
-  - enabled: 1
-<<<<<<< Updated upstream
-    path: Assets/Scenes/Sliding Puzzle.unity
-    guid: cdb79f695dab5d9478852da5550be63b
-=======
-<<<<<<< HEAD
-    path: Assets/Scenes/Finish.unity
-    guid: 61b9619c06918b94a86ab3ac36151764
-=======
-    path: Assets/Scenes/Sliding Puzzle.unity
-    guid: cdb79f695dab5d9478852da5550be63b
->>>>>>> 5934f53f9651aa782f7d651d84a7eaafec72b450
->>>>>>> Stashed changes
+  m_Scenes: []
   m_configObjects: {}
